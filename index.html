@@ -3,101 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Scholarship Journal - 2025</title>
+    <title>Meriem Aoudia | Scholarship Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
     </style>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        'fun-blue': '#0ea5e9',
-                        'fun-purple': '#8b5cf6',
-                        'fun-orange': '#f97316',
+                        'brand-dark': '#0f172a',
+                        'brand-blue': '#3b82f6',
+                        'brand-purple': '#8b5cf6',
+                        'brand-orange': '#f97316',
                     }
                 }
             }
         }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-white text-slate-800 antialiased selection:bg-brand-blue selection:text-white">
 
-    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-100">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-fun-blue to-fun-purple">Meriem's Journal</a>
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-slate-100 transition-all duration-300">
+        <div class="max-w-5xl mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-brand-dark hover:text-brand-blue transition">Meriem Aoudia.</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-500">
+                <a href="theme-1-voice-overs.html" class="hover:text-brand-blue transition">Voice Overs</a>
+                <a href="theme-2-human-talent.html" class="hover:text-brand-purple transition">Human Talent</a>
+                <a href="theme-3-video-translation.html" class="hover:text-brand-orange transition">Translation</a>
+            </div>
         </div>
     </nav>
 
-    <header class="relative overflow-hidden bg-white">
-        <div class="max-w-4xl mx-auto px-6 py-24 text-center relative z-10">
-            <span class="inline-block py-1 px-3 rounded-full bg-fun-blue/10 text-fun-blue text-sm font-semibold mb-4">Scholarship Entry 2025-26</span>
-            <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">Voice, Tech, & Global Connection</h1>
-            <p class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                Hi there! This is my portfolio for the Voice Talent Online Scholarship. 
-                Here are my three takes on this year's themes, exploring the human side of digital media.
-            </p>
+    <header class="pt-40 pb-20 px-6 max-w-4xl mx-auto text-center">
+        <div class="inline-flex items-center px-4 py-2 rounded-full bg-slate-50 border border-slate-200 text-xs font-semibold tracking-wide uppercase text-slate-500 mb-8">
+            2025-26 Scholarship Entry
         </div>
-        <div class="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-fun-blue/20 rounded-full blur-3xl opacity-50"></div>
-        <div class="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-96 h-96 bg-fun-purple/20 rounded-full blur-3xl opacity-50"></div>
+        <h1 class="text-5xl md:text-7xl font-bold text-brand-dark mb-8 leading-tight">
+            Voice, Tech, & <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-purple">Global Connection.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
+            Welcome to my portfolio. I explore how human emotion defines technology, from the cartoons we grew up with to the AI future we are building.
+        </p>
     </header>
 
-    <main class="max-w-5xl mx-auto px-6 py-20">
-        <h2 class="text-3xl font-bold text-center mb-12">My Submissions</h2>
-        <div class="grid md:grid-cols-3 gap-8">
+    <main class="max-w-6xl mx-auto px-6 pb-32">
+        <div class="grid md:grid-cols-3 gap-10">
             
-            <a href="theme-1-voice-overs.html" class="group block bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(14,165,233,0.15)] transition-all duration-300 overflow-hidden border border-slate-100 hover:border-fun-blue/50 ring-4 ring-transparent hover:ring-fun-blue/10">
-                <div class="h-52 overflow-hidden relative">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Retro Microphone" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
-                    <span class="absolute top-4 left-4 z-20 bg-fun-blue text-white text-xs font-bold px-3 py-1.5 rounded-full">THEME #1</span>
+            <a href="theme-1-voice-overs.html" class="group block">
+                <div class="relative h-64 overflow-hidden rounded-2xl shadow-sm group-hover:shadow-2xl transition-all duration-500 ease-in-out">
+                    <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition z-10"></div>
+                    <img src="https://images.unsplash.com/photo-1478737270239-2f02b77ac618?auto=format&fit=crop&w=800&q=80" alt="Microphone" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                    <div class="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-brand-blue border border-white/50">THEME 1</div>
                 </div>
-                <div class="p-8">
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 leading-tight group-hover:text-fun-blue transition">The Top 5 Voice Overs That Shaped Me</h3>
-                    <p class="text-slate-600 text-sm mb-6 line-clamp-3">A nostalgic dive into the performances that proved voice acting is pure magic.</p>
-                    <div class="flex items-center text-fun-blue font-bold text-sm">
-                        Read Article <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 group-hover:translate-x-1 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                    </div>
+                <div class="pt-6 px-2">
+                    <h3 class="text-2xl font-bold text-brand-dark group-hover:text-brand-blue transition mb-3">The 5 Voices That Changed The Game</h3>
+                    <p class="text-slate-500 leading-relaxed">Why Robin Williams and Jeremy Irons proved voice acting is pure art.</p>
                 </div>
             </a>
 
-            <a href="theme-2-human-talent.html" class="group block bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(139,92,246,0.15)] transition-all duration-300 overflow-hidden border border-slate-100 hover:border-fun-purple/50 ring-4 ring-transparent hover:ring-fun-purple/10">
-                <div class="h-52 overflow-hidden relative">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Robot Head" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
-                     <span class="absolute top-4 left-4 z-20 bg-fun-purple text-white text-xs font-bold px-3 py-1.5 rounded-full">THEME #2</span>
+            <a href="theme-2-human-talent.html" class="group block">
+                <div class="relative h-64 overflow-hidden rounded-2xl shadow-sm group-hover:shadow-2xl transition-all duration-500 ease-in-out">
+                    <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition z-10"></div>
+                    <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=800&q=80" alt="Human vs AI" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                    <div class="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-brand-purple border border-white/50">THEME 2</div>
                 </div>
-                <div class="p-8">
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 leading-tight group-hover:text-fun-purple transition">Why AI Can't Beat Human Talent</h3>
-                    <p class="text-slate-600 text-sm mb-6 line-clamp-3">Exploring the one thing technology can't fake: genuine human emotion.</p>
-                    <div class="flex items-center text-fun-purple font-bold text-sm">
-                        Read Article <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 group-hover:translate-x-1 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                    </div>
+                <div class="pt-6 px-2">
+                    <h3 class="text-2xl font-bold text-brand-dark group-hover:text-brand-purple transition mb-3">Why AI Can't Beat Human Talent</h3>
+                    <p class="text-slate-500 leading-relaxed">I study Machine Learning. Here is why algorithms can't replicate the crack in a voice.</p>
                 </div>
             </a>
 
-            <a href="theme-3-video-translation.html" class="group block bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(249,115,22,0.15)] transition-all duration-300 overflow-hidden border border-slate-100 hover:border-fun-orange/50 ring-4 ring-transparent hover:ring-fun-orange/10">
-                <div class="h-52 overflow-hidden relative">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Diverse Friends" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
-                     <span class="absolute top-4 left-4 z-20 bg-fun-orange text-white text-xs font-bold px-3 py-1.5 rounded-full">THEME #3</span>
+            <a href="theme-3-video-translation.html" class="group block">
+                <div class="relative h-64 overflow-hidden rounded-2xl shadow-sm group-hover:shadow-2xl transition-all duration-500 ease-in-out">
+                    <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition z-10"></div>
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80" alt="Global Connection" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                    <div class="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-brand-orange border border-white/50">THEME 3</div>
                 </div>
-                <div class="p-8">
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 leading-tight group-hover:text-fun-orange transition">Breaking the Global Bubble</h3>
-                    <p class="text-slate-600 text-sm mb-6 line-clamp-3">How video translation is making the world smaller, one subtitle at a time.</p>
-                    <div class="flex items-center text-fun-orange font-bold text-sm">
-                        Read Article <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 group-hover:translate-x-1 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                    </div>
+                <div class="pt-6 px-2">
+                    <h3 class="text-2xl font-bold text-brand-dark group-hover:text-brand-orange transition mb-3">Breaking the Global Bubble</h3>
+                    <p class="text-slate-500 leading-relaxed">How video translation is making the world smaller, one subtitle at a time.</p>
                 </div>
             </a>
 
         </div>
     </main>
 
-    <footer class="bg-white border-t border-slate-100 py-12 text-center text-slate-500">
-        <p class="font-medium">© 2025 Meriem Aoudia. Built for the Scholarship Competition.</p>
+    <footer class="border-t border-slate-100 py-12 text-center">
+        <p class="text-slate-400 text-sm">© 2025 Meriem Aoudia. Built for the Voice Talent Online Scholarship.</p>
     </footer>
 
 </body>
